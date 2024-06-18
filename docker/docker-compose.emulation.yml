@@ -2,8 +2,6 @@
 # 
 # Comes out with sane defaults, feel free to configure as needed.
 
-version: "3"
-
 services:
   # This is the first container and image, responsible for setting up QEMU. In the future, this
   # can be replaced with `multiarch/qemu-user-static` when it supports at least QEMU 5.0.
